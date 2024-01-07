@@ -1,0 +1,58 @@
+.body-right :global {
+  .mobile {
+    @apply grid grid-cols-3 lg:block;
+    & > * {
+      @apply last:col-span-2;
+    }
+    .select {
+      @apply h-5;
+    }
+  }
+
+  .status {
+    @apply hidden lg:block;
+  }
+
+  .assignee {
+    .assignee-user {
+      @apply flex cursor-pointer items-center gap-2.5;
+    }
+  }
+
+  .priority {
+    .MuiInputBase-root {
+      .MuiSelect-select {
+        @apply py-0 pl-0;
+      }
+      fieldset {
+        @apply hidden;
+      }
+    }
+  }
+  .point {
+    .form {
+      @apply flex items-center gap-2.5;
+    }
+    .point-input {
+      @apply h-8 max-w-[128px] bg-slate-100 px-2 py-1;
+    }
+  }
+
+  .date {
+    @apply space-y-5;
+    .date-value {
+      @apply text-h7 text-slate-700;
+    }
+  }
+
+  .time-state {
+    @apply text-h7 text-slate-600;
+  }
+}
+.read-only :global {
+  .divide.item {
+    * {
+      @apply cursor-text;
+    }
+  }
+}

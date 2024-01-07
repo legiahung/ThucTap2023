@@ -1,0 +1,16 @@
+.list-task :global {
+  .container {
+    @apply px-4;
+    .empty {
+      @apply -mt-1 flex justify-center;
+    }
+  }
+  .tasks {
+    .item {
+      @apply first:rounded-t-lg first:border-t last:rounded-b-lg;
+    }
+  }
+  .error-private-list {
+    @apply mt-3 flex justify-center text-red-500;
+  }
+}

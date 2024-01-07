@@ -1,0 +1,31 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "EditorConfig.EditorConfig",
+    "oderwat.indent-rainbow",
+    "ChakrounAnas.turbo-console-log",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "PKief.material-icon-theme",
+    "formulahendry.auto-rename-tag",
+    "ms-dotnettools.csharp",
+    "ms-azuretools.vscode-docker",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "oderwat.indent-rainbow",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "PKief.material-icon-theme",
+    "christian-kohler.npm-intellisense",
+    "techer.open-in-browser",
+    "quicktype.quicktype",
+    "christian-kohler.path-intellisense",
+    "zobo.php-intellisense",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "Gruntfuggly.todo-tree",
+    "shardulm94.trailing-spaces",
+    "ChakrounAnas.turbo-console-log"
+  ]
+}

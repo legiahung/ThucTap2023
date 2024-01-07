@@ -1,0 +1,19 @@
+.top-area-left :global {
+  @apply flex gap-x-3;
+  .decor {
+    @apply hidden md:block;
+    .decor-inner {
+      @apply flex h-12 w-12 items-center rounded-xl border border-transparent bg-[#38BDF8] px-1;
+    }
+  }
+  .page-action {
+    @apply flex gap-x-2;
+  }
+  .page-title {
+    @apply text-h4 font-semibold;
+    @apply flex gap-x-1;
+  }
+  .more {
+    @apply hidden md:block;
+  }
+}

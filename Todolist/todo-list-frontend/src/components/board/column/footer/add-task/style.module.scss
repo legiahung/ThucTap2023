@@ -1,0 +1,7 @@
+.add-task-kanban :global {
+  .btn-add-task {
+    @apply flex justify-center hover:cursor-pointer;
+    @apply rounded-xl border border-dashed;
+    @apply mx-auto w-[266px] p-3 text-slate-500 md:w-[285px];
+  }
+}

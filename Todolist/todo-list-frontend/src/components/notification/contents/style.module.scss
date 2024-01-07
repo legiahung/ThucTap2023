@@ -1,0 +1,46 @@
+.contents :global {
+  @apply w-full text-h7 lg:w-[406px];
+  hr {
+    @apply mt-4;
+  }
+  .empty {
+    @apply px-4 py-1.5 text-center text-slate-500;
+  }
+  .load-more {
+    @apply mt-3 cursor-pointer text-center underline;
+  }
+  .read-all {
+    @apply mt-3 cursor-pointer underline;
+  }
+  .header {
+    @apply relative text-center;
+    .title {
+      @apply text-base font-semibold text-slate-500;
+    }
+    .ico {
+      @apply absolute top-0 right-[14px] cursor-pointer text-slate-500;
+    }
+  }
+  .item {
+    @apply relative flex cursor-pointer gap-2 px-4 py-1.5 hover:bg-sky-50;
+    .sender-name {
+      @apply font-semibold;
+    }
+    .content {
+      @apply mr-3 line-clamp-2 lg:w-[310px];
+      a {
+        @apply text-slate-700 underline;
+      }
+      .time {
+        @apply text-xs;
+      }
+    }
+    .dot {
+      @apply absolute top-2 right-3;
+      @apply inline-block h-3 w-3 rounded-full bg-sky-500;
+    }
+  }
+  .footer {
+    @apply flex justify-around;
+  }
+}

@@ -1,0 +1,43 @@
+.page-lobby {
+  @apply h-full overflow-x-hidden;
+  .abc-input.error {
+    @apply relative;
+    .message {
+      @apply absolute left-0;
+    }
+  }
+}
+
+.container {
+  @apply relative flex h-full flex-col-reverse items-center xl:flex-row;
+  @apply space-x-28 px-3 md:px-11 xl:px-40;
+  @apply py-10;
+
+  form {
+    @apply relative;
+    p {
+      @apply absolute;
+    }
+  }
+}
+
+.inner {
+  @apply basis-1/2;
+}
+
+.actions {
+  @apply grid lg:grid-cols-2;
+  @apply gap-x-5 gap-y-4;
+  @apply mt-8 w-full;
+}
+
+.button {
+  @apply w-full py-3 font-medium;
+}
+
+.decor {
+  @apply flex basis-1/2 justify-end;
+  svg {
+    @apply h-auto w-80 sm:w-[80%] md:w-[60%] xl:w-full;
+  }
+}

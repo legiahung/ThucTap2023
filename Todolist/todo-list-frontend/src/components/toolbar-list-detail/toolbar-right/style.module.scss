@@ -1,0 +1,27 @@
+.toolbar-right :global {
+  @apply flex items-center gap-x-4;
+  .add-task {
+    @apply flex gap-x-1;
+  }
+  .view-mode {
+    @apply flex  items-center gap-x-4;
+  }
+  .btn {
+    @apply flex items-center px-1 leading-tight hover:cursor-pointer;
+  }
+  .sort {
+    @apply flex gap-x-1;
+  }
+  .delete {
+    @apply flex items-center gap-x-1;
+  }
+  .active {
+    @apply rounded border bg-[#E5E7EB] p-[2px];
+  }
+  .icons {
+    @apply leading-none hover:cursor-pointer;
+  }
+  .settings {
+    @apply flex gap-x-1;
+  }
+}

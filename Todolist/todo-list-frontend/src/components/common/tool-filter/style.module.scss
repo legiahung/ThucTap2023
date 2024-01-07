@@ -1,0 +1,112 @@
+.tool-filter :global {
+  @apply relative flex items-center gap-1.5 lg:h-7;
+  svg {
+    @apply hidden;
+  }
+  .filter-icon {
+    @apply absolute top-0 flex h-full items-center gap-x-1;
+    svg {
+      @apply hidden;
+    }
+    .abc-icon.size-24:before {
+      @apply text-[20px] md:text-2xl;
+    }
+  }
+  .MuiSelect-select {
+    @apply h-6 bg-transparent p-0 pl-16;
+    padding-right: 0 !important;
+  }
+  .MuiList-root {
+    @apply w-full max-w-xs;
+  }
+}
+.menu-item :global {
+  width: 300px;
+  @apply flex flex-col px-[20px] py-0;
+  .MuiTouchRipple-root {
+    @apply hidden;
+  }
+  hr {
+    @apply block w-full;
+  }
+  .menu-header-inner {
+    @apply flex w-full justify-between;
+  }
+  .MuiList-subheader {
+    @apply flex w-full justify-between;
+  }
+  .MuiListSubheader-root {
+    @apply p-0;
+  }
+  .MuiListItemButton-root {
+    @apply mb-3 flex w-full justify-between p-0 font-semibold;
+    &.is-close {
+      @apply mb-0;
+    }
+  }
+  .MuiList-root {
+    @apply w-full py-0;
+  }
+  .list-inner {
+    @apply py-3;
+    &.is-last {
+      @apply pb-0;
+    }
+  }
+  .MuiTypography-root {
+    @apply font-medium;
+  }
+  .status-radios {
+    @apply font-semibold;
+    .MuiFormControlLabel-root {
+      @apply ml-8 mb-2.5 w-fit rounded px-2 py-1;
+      &:last-child {
+        @apply mb-0;
+      }
+    }
+    .MuiRadio-root {
+      @apply absolute left-0 p-0;
+    }
+    .MuiTypography-root {
+      @apply flex items-center font-semibold;
+    }
+  }
+  .priority-radios {
+    @apply font-semibold;
+    .MuiFormControlLabel-root {
+      @apply ml-8 mb-3.5 w-fit;
+      &:last-child {
+        @apply mb-0;
+      }
+    }
+    .MuiRadio-root {
+      @apply absolute left-0 p-0;
+    }
+    .MuiTypography-root {
+      @apply flex items-center;
+    }
+  }
+  .MuiButtonBase-root {
+    @apply hover:bg-transparent;
+  }
+  .MuiSelect-outlined {
+    @apply border-0 border-none;
+  }
+}
+
+.MuiPaper-root {
+  background-color: #000;
+}
+.menu-dropdown :global {
+  @apply w-full max-w-xs;
+
+  .MuiSelect-outlined {
+    @apply border-0 border-none;
+  }
+}
+
+.menu-item {
+  &:hover {
+    background-color: transparent !important;
+  }
+}

@@ -1,0 +1,11 @@
+.tool-menu {
+  @apply sm:hidden;
+}
+.menu-btn {
+  svg {
+    @apply fill-[#334155];
+  }
+}
+.menu {
+  @apply sm:hidden;
+}

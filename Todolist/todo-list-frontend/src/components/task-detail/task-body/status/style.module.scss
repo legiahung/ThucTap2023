@@ -1,0 +1,26 @@
+.status :global {
+  @apply relative  h-full items-center;
+  .MuiOutlinedInput-root {
+    @apply h-8 w-auto rounded;
+  }
+
+  .MuiSelect-select {
+    @apply h-full w-full;
+    padding: 0 !important;
+    .mobile-icon {
+      @apply absolute flex h-[23px] w-full items-center justify-center lg:hidden;
+    }
+  }
+
+  .status-name {
+    @apply py-0.5 pl-3 pr-8;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    @apply border-0;
+  }
+
+  .MuiSelect-icon {
+    @apply fill-white;
+  }
+}

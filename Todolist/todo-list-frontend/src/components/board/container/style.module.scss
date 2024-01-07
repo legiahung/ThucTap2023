@@ -1,0 +1,8 @@
+.kanban-container :global {
+  @apply mt-6;
+  .inner {
+    @apply flex space-x-4;
+    @apply overflow-auto;
+    height: calc(100vh - 210px);
+  }
+}

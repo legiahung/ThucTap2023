@@ -1,0 +1,15 @@
+.lobby-title {
+  // @apply bg-teal-500 text-white;
+  @apply text-white;
+}
+
+.title {
+  @apply text-h1 font-bold md:text-hero;
+}
+
+.headline {
+  @apply mb-5 text-h4 font-bold md:text-h3;
+}
+.quote {
+  @apply text-h5 font-medium md:text-h4;
+}

@@ -1,0 +1,57 @@
+.body-left :global {
+  @apply lg:h-[740px] lg:overflow-auto lg:overflow-x-hidden;
+  textarea {
+    box-shadow: none;
+  }
+
+  .status {
+    @apply lg:hidden;
+  }
+
+  .description {
+    .description-text {
+      * {
+        @apply break-words;
+      }
+      ul,
+      ol {
+        list-style: revert;
+        margin-left: 16px;
+      }
+      img {
+        @apply my-2;
+      }
+      table {
+        @apply prose border-collapse;
+        th,
+        td {
+          @apply border px-2;
+        }
+      }
+      ul,
+      ol {
+        list-style: revert;
+        margin-left: 16px;
+      }
+      img {
+        @apply my-2 w-full max-w-[200px];
+      }
+    }
+    .edit-btn {
+      @apply rounded bg-slate-100 p-1 text-h7;
+    }
+  }
+
+  .attachment {
+    .task-images {
+      @apply flex flex-col gap-3;
+      &-upload {
+        @apply mt-3 flex gap-3 overflow-x-auto bg-blue-100 p-2;
+      }
+    }
+  }
+
+  .comment {
+    @apply hidden lg:block;
+  }
+}

@@ -1,0 +1,36 @@
+.abc-icon {
+  @apply leading-none;
+  &.size-12:before {
+    @apply text-[12px];
+  }
+  &.size-16:before {
+    @apply text-[16px];
+  }
+  &.size-20:before {
+    @apply text-[20px];
+  }
+  &.size-24:before {
+    @apply text-[24px];
+  }
+  &.size-28:before {
+    @apply text-[28px];
+  }
+  &.size-32:before {
+    @apply text-[32px];
+  }
+  &.size-36:before {
+    @apply text-[36px];
+  }
+  &.size-40:before {
+    @apply text-[40px];
+  }
+  &.size-44:before {
+    @apply text-[44px];
+  }
+  &.size-48:before {
+    @apply text-[48px];
+  }
+  &.size-64:before {
+    @apply text-[64px];
+  }
+}

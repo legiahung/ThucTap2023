@@ -1,0 +1,24 @@
+.topbar-lobby :global {
+  @apply px-0 sm:px-10 xl:px-40;
+  .container {
+    @apply max-w-full;
+  }
+  .inner {
+    @apply flex justify-between;
+  }
+  .logo {
+    @apply pt-7;
+    svg {
+      @apply hidden sm:block;
+    }
+  }
+  .topbar {
+    @apply flex items-center text-white;
+    a {
+      @apply text-white;
+    }
+    .sep {
+      @apply bg-white;
+    }
+  }
+}

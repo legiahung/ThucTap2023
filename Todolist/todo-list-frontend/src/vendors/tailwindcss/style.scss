@@ -1,0 +1,36 @@
+@import './animations/keyframes';
+
+@tailwind base;
+@layer base {
+  @import './bases/root';
+  @import './bases/html';
+  @import './bases/body';
+  @import './bases/heading';
+}
+
+@tailwind components;
+@layer components {
+  @import './components/button';
+  @import './components/icon';
+  @import './components/icon-button';
+  @import './components/link';
+  @import './components/loading';
+  @import './components/modal';
+  @import './components/scrollbar';
+  @import './components/input';
+  @import './components/input-group';
+  @import './components/toast';
+  @import './components/tab';
+  @import './components/checkbox';
+  @import './components/radio';
+  @import './components/switcher';
+  @import './components/drawer';
+  @import './components/backdrop';
+  @import './components/error';
+  @import './components/icon-float';
+}
+
+@tailwind utilities;
+@layer utilities {
+  @import './utilities/effects';
+}

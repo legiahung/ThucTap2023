@@ -1,0 +1,14 @@
+.com-login-decor {
+  @apply hidden lg:block;
+}
+
+.container {
+  @apply right-0 -bottom-1 -z-10 w-full lg:absolute;
+}
+.container::before {
+  @apply absolute top-0 left-0 -z-20 h-[120%] w-[200%] rotate-[-3deg] bg-slate-100 content-[''];
+}
+
+.trees {
+  @apply -mt-12 flex items-end justify-between px-10;
+}

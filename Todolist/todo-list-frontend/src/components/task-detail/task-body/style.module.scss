@@ -1,0 +1,32 @@
+.task-body :global {
+  @apply mt-3 bg-gray-50 px-4 shadow-md lg:mt-6 lg:px-8;
+  @apply lg:grid lg:grid-cols-3 lg:gap-x-20;
+
+  .body-left-wrapper {
+    @apply col-span-2;
+  }
+
+  .point {
+    textarea {
+      @apply pt-0;
+      @apply w-full lg:w-[65%];
+    }
+  }
+
+  .divide {
+    @apply border-b last:border-0;
+  }
+
+  .item {
+    @apply py-4;
+    .title {
+      @apply mb-3 flex items-center gap-2.5;
+      i::before {
+        @apply text-[20px];
+      }
+      span {
+        @apply font-semibold text-slate-700;
+      }
+    }
+  }
+}

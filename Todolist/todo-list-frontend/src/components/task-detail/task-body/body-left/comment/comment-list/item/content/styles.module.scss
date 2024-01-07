@@ -1,0 +1,20 @@
+.comment-content :global {
+  .content {
+    @apply break-words;
+  }
+  ul,
+  ol {
+    list-style: revert;
+    margin-left: 16px;
+  }
+  img {
+    @apply my-2;
+  }
+  table {
+    @apply prose border-collapse;
+    th,
+    td {
+      @apply border px-2;
+    }
+  }
+}

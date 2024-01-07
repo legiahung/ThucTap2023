@@ -1,0 +1,133 @@
+.custom-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    /* Hiệu ứng hover */
+    &:hover {
+      background-color: darkblue; /* Màu nền mới khi hover */
+    }
+  }
+.avatar {
+    border-radius: 50%;
+  }
+
+  /* --------------------------------------- */
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+  }
+  
+  .menu li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .content-display {
+    margin: 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    max-width: 600px; 
+    max-height: 600px; 
+  }
+
+  /* --------------------------------------- */
+.game {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.game-board {
+  flex-grow: 1;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  background-color: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.square:hover {
+  background-color: #f3f3f3;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.status {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* File Home.module.css */
+.container {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 200px;
+  height: auto;
+}
